@@ -1,0 +1,7 @@
+int accessCode =  $button=accessCode$ $editable$
+
+bool overrideDefaults =  $button=overrideDefaults$ $editable$
+
+if(accessCode == 7 && overrideDefaults == true){
+	$editable$ $req:accessCode=7$ $req:overrideDefaults=true$
+}

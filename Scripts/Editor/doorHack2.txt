@@ -1,0 +1,8 @@
+int doorWidth = $button=height$ $editable$
+
+bool accessGranted =    $button=access$ $editable$
+
+if(accessGranted){
+   OpenDoor(doorWidth)
+}
+

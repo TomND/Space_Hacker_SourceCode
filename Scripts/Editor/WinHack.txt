@@ -1,0 +1,6 @@
+bool winner = true
+
+if(winner){
+	$editable$
+}
+

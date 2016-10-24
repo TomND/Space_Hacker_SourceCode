@@ -1,0 +1,7 @@
+int speed = $button=speed; $editable$
+
+bool accessGranted = true
+
+if(accessGranted){
+   $req:access=true$ $editable$
+}

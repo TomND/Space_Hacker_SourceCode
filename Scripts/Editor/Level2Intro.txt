@@ -1,0 +1,5 @@
+int accessCode =   $button=decryptKey$ $editable$
+
+if(accessCode == 8){
+    $editable$ $req:decryptKey=8$
+}

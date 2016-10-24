@@ -1,0 +1,9 @@
+int adminCode =  $button=accessCode$ $editable$
+
+bool overrideDefaults = false;
+
+if(  (overrideDefaults == true && adminCode == 3) ||
+    (adminCode == 5)                            ){
+
+	$editable$ $req:accessCode=5$
+}

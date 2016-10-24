@@ -1,0 +1,5 @@
+bool enableElevator = $button=enable$ $editable$
+
+if(enableElevator){
+    Elevate(); 
+}

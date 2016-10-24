@@ -1,0 +1,8 @@
+bool playerSpotted = $button=spotted$; $editable$
+
+if(playerSpotted){
+    CloseDoor();
+    }
+else{
+    OpenDoor();
+}

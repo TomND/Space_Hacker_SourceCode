@@ -1,0 +1,8 @@
+int DoorHeight = $button=height$; $editable$
+bool accessGranted =    $button=access$;$editable$
+if(accessGranted){
+   $req:access=true$ $editable$
+}
+else{
+  $editable$ $req:access=false$
+}

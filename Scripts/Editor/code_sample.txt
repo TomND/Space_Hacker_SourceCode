@@ -1,0 +1,8 @@
+int SwivelSpeed = $button=speed$; $editable$
+$editable$
+if(Protected.GrantedAccess()){ $editable$
+		$editable$
+    Swivel();
+		$editable$
+    }$editable$
+$editable$

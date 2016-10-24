@@ -1,0 +1,13 @@
+bool disruptGravity =    $button=tripleAccess$ $editable$
+
+float platform1Height =  $button=height$ $editable$
+
+float platform2Height =  $button=height2$ $editable$
+
+float platform3Height =  $button=height3$ $editable$
+
+if(disruptGravity){
+   HoverPlatform1(platform1Height)
+   HoverPlatform2(platform2Height)
+   HoverPlatform3(platform3Height)
+}

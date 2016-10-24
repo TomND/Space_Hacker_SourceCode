@@ -1,0 +1,6 @@
+bool overrideControls = $button=enable$ $editable$
+int elevatorHeight = $button=height$ $editable$
+
+if(overrideControls){
+    Elevate(elevatorHeight); 
+}

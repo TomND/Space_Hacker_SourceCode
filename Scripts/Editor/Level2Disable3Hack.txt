@@ -1,0 +1,15 @@
+int adminCode =  $button=accessCode$ $editable$
+
+bool overrideDefaults = false;
+
+int decryptKey = $button=decryptKey$ $editable$
+
+if(  adminCode == 10  ||
+     (decryptKey == 7 && overrideDefaults == true) ){
+
+    if(adminCode == 2 || decryptKey == 1){
+        $editable$ $req:accessCode=10$ $req:decryptKey=1$
+    }
+
+
+}

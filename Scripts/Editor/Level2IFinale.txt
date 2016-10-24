@@ -1,0 +1,5 @@
+bool openPortal =  $button=overrideDefaults$ $editable$
+
+if(openPortal){
+    $editable$ $req:overrideDefaults=true$
+}
